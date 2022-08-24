@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{89A92606-298C-4562-AC7A-09E8FE6ADA0E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APICard_Sports", "APICard_Sports\APICard_Sports.csproj", "{727E024C-E574-4482-9ED5-56EC81021D7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Front_Card_Sports", "..\..\Front_Card_Sports\Front_Card_Sports.csproj", "{0B8BB201-B361-4916-A041-9BC96104D35A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{727E024C-E574-4482-9ED5-56EC81021D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727E024C-E574-4482-9ED5-56EC81021D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727E024C-E574-4482-9ED5-56EC81021D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727E024C-E574-4482-9ED5-56EC81021D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B8BB201-B361-4916-A041-9BC96104D35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8BB201-B361-4916-A041-9BC96104D35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8BB201-B361-4916-A041-9BC96104D35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8BB201-B361-4916-A041-9BC96104D35A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C95EEB6D-DBE9-4C61-97AD-01F1588FF8EE}
+	EndGlobalSection
+EndGlobal
