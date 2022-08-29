@@ -8,8 +8,8 @@ namespace APICard_Sports.Entidade
         [Key]
         public int Id { get; set; }
         public string? Name { get; set; }
-        //public int CardId { get; set; }
-        //public virtual CardModel CardM { get; set; }
-        public List<CardTagModel>? cardstags { get; set; }
+
+        public ICollection<CardModel> Cards { get; set; }
+        
     }
 }

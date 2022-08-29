@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5kKm0TcqtdnWkp3r8/UppSZOhH/JGaBLfRui6dW6qpmSiXt/AZxPLjL3Ou11JWObiVwpl017jSe4ktzisAx7DA==",
+  "dgSpecHash": "rhdE5fruAG148K3h9YfPMJ4NdttNfYyEHkx5gQT+t93E6PpiYvKdYdIzcCo9U2ll8imY6L+xbrtcAQXTDbt2cg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cold\\Desktop\\DOTNET\\GLOBO\\APICard_Sports\\APICard_Sports\\APICard_Sports\\APICard_Sports.csproj",
+  "projectFilePath": "C:\\Users\\Cold\\Desktop\\DOTNET\\Card_Insights\\APICard_Sports\\APICard_Sports\\APICard_Sports\\APICard_Sports.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cold\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Cold\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

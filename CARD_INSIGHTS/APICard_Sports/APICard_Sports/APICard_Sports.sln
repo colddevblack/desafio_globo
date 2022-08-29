@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APICard_Sports", "APICard_Sports\APICard_Sports.csproj", "{727E024C-E574-4482-9ED5-56EC81021D7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Front_Card_Sports", "..\..\Front_Card_Sports\Front_Card_Sports.csproj", "{0B8BB201-B361-4916-A041-9BC96104D35A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Front_Card_Sports", "..\..\Front_Card_Sports\Front_Card_Sports.csproj", "{0B8BB201-B361-4916-A041-9BC96104D35A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI_Card_Sports", "..\..\CLI_Card_Sports\CLI_Card_Sports.csproj", "{FCCBF20A-275C-4BD4-ACA9-1307AB4993D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{0B8BB201-B361-4916-A041-9BC96104D35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B8BB201-B361-4916-A041-9BC96104D35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B8BB201-B361-4916-A041-9BC96104D35A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCCBF20A-275C-4BD4-ACA9-1307AB4993D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCBF20A-275C-4BD4-ACA9-1307AB4993D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCBF20A-275C-4BD4-ACA9-1307AB4993D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCBF20A-275C-4BD4-ACA9-1307AB4993D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

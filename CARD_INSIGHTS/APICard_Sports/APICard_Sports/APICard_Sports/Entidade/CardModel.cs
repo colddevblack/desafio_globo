@@ -16,7 +16,6 @@ namespace APICard_Sports.Entidade
         ////referencias outra model Tipo 
         //public int Tagid { get; set; }
         //public virtual TagModel TagM { get; set; }
-        public List<CardTagModel>? cardstags { get; set; }
-
+       public ICollection<TagModel> Tags { get; set; }
     }
 }

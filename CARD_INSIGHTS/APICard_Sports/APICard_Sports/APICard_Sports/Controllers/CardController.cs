@@ -22,29 +22,41 @@ namespace APICard_Sports.Controllers
 
         //POST api/CardController/CriaCard
         [HttpPost]
-        public HttpStatusCode CriarCard(string text, string tag)
+        public HttpStatusCode CriarCard(string text, string? tag)
         {
+            var tagm = new TagModel();
+            var model = new CardModel()
+            {
+                Texto = text,
+                Tags = null,
+                DataCriacao = DateTime.Now,
+                DataModificacao = DateTime.Now,
+            };
+            if (tag != null)
+            {
 
-         var taglist = new List<CardTagModel>();
-         var model = new CardModel();
-         model.Texto = text;
-         model.DataCriacao = DateTime.Now;
-         model.DataModificacao = DateTime.Now;
-         //var tagcriar = new TagModel();
-            
-         //   tagcriar.Name = tag;
-         //   taglist[0].TagModelRef.Name = tag;    
-         //   db.Tagcontentdb.Add(tagcriar);
-            
+                tagm.Name = tag;
+                db.Tagcontentdb.Add(tagm);
+                db.SaveChanges();
 
+            }
+            if (tag != null)
+            {
+                var searchtag = (from u in db.Tagcontentdb where (tag != null ? u.Name == tag : 0 == 0) select u).Single();
+                var listtag = new List<TagModel>();
+                listtag.Add(searchtag);
+                model.Tags = listtag;
+                db.Cardcontentdb.Add(model);
+                db.SaveChanges();
+            }
+            db.Cardcontentdb.Add(model);
             db.SaveChanges();
 
             //model.cardstags.Add(taglist[0]);
 
-            db.Cardcontentdb.Add(model);
-         db.SaveChanges();
-         
-         return HttpStatusCode.Created;
+
+
+            return HttpStatusCode.Created;
         }
         // PUT api/CardController/EditarCard
         [HttpPut]
